@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  Users
+
+  Created by Borys Klykavka on 18.03.2025.
+  
+*/
+
+"users" = "Користувачі";
+"signUp" = "Авторизуватись";
+"uploadYourPhoto" = "Додай своє фото";
+"upload" = "Завантажити";
+
+"workingWithGetRequest" = "Працюємо з GET запитами";
+"workingWithPostRequest" = "Працюємо з POST запитами";
+
+"alreadyRegistered" = "Юзер з такою адресою вже зареєстрований";
+"noInternet" = "Немає інтернет з'єднання";
+"successRegistered" = "Користувача зареєстровано";
+
+"Try again" = "Спробувати ще";
+"Got it" = "Отримав це";

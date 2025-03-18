@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  Users
+
+  Created by Borys Klykavka on 18.03.2025.
+  
+*/
+
+"users" = "Users";
+"signUp" = "Sign Up";
+"uploadYourPhoto" = "Upload your photo";
+"upload" = "Upload";
+
+"workingWithGetRequest" = "Working with GET request";
+"workingWithPostRequest" = "Working with POST request";
+
+"alreadyRegistered" = "User with such Email is already registered";
+"noInternet" = "No internet connection";
+"successRegistered" = "User succesfully registered";
+
+
+"Try again" = "Try again";
+"Got it" = "Got it";
