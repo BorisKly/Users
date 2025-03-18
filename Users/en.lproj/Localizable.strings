@@ -21,3 +21,13 @@
 
 "Try again" = "Try again";
 "Got it" = "Got it";
+"Select your position" = "Select your position";
+
+"Your name" = "Your name";
+"Email" = "Email";
+"Phone" = "Phone";
+
+"Required Field" = "Required Field";
+"Invalid name" = "Invalid name";
+"Invalid email" = "Invalid email";
+"Invalid phone" = "Invalid phone";

@@ -20,3 +20,13 @@
 
 "Try again" = "Спробувати ще";
 "Got it" = "Отримав це";
+"Select your position" = "Виберіть свою позицію";
+
+"Your name" = "Ваше ім'я";
+"Email" = "Пошта";
+"Phone" = "Телефон";
+
+"Required Field" = "Обов'язкове поле";
+"Invalid name" = "Недійсне ім'я";
+"Invalid email" = "Недійсна електронна адреса";
+"Invalid phone" = "Недійсний телефон";

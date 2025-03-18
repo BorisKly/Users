@@ -26,4 +26,15 @@ struct GeneralConstants {
 
     static let  tryAgain = "Try again"
     static let  gotIt = "Got it"
+    
+    static let selectYourPosition = "Select your position"
+    
+    static let yourName = "Your name"
+    static let email = "Email"
+    static let phone = "Phone"
+    
+    static let requiredField = "Required Field"
+    static let invalidName = "Invalid name"
+    static let invalidEmail = "Invalid email"
+    static let invalidPhone = "Invalid phone"
 }

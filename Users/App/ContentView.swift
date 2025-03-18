@@ -8,11 +8,44 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject var networkMonitor: NetworkMonitor
+
+    @StateObject var homeViewModel = HomeViewModel()
+    @StateObject var authViewModel = AuthViewModel()
+
+    @State private var isActive = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/).font(Fonts.customBody18)
+        Group {
+            if isActive {
+                if networkMonitor.isConnected {
+                    withAnimation(.easeInOut) {
+                        MainTabView()
+                            .environmentObject(homeViewModel)
+                            .environmentObject(authViewModel)
+                    }
+                } else {
+                    withAnimation(.easeInOut) {
+                        InfoView(type: .noInternet) {
+                            networkMonitor.checkConnection()
+                        }
+                    }
+                }
+            } else {
+                SplashView()
+            }
+        }
+        .onAppear {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1 ) {
+                withAnimation {
+                    isActive = true
+                }
+            }
+        }
     }
 }
-
 #Preview {
     ContentView()
 }
+
